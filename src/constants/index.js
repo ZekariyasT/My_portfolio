@@ -24,6 +24,7 @@ import {
   ESLTS,
   Nahom,
   tekle,
+  Ela,
 } from "../assets";
 
 export const navLinks = [
@@ -165,10 +166,10 @@ const testimonials = [
   {
     testimonial:
       "Zack's expertise and passion for development shine through in every project—an exceptional Full Stack Developer!",
-    name: "Eyob Mesfin",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    name: "Eliyas Chane",
+    designation: "Full Stack Developer",
+    company: "EagleLion System Technology",
+    image: Ela,
   },
 ];
 

@@ -31,6 +31,7 @@ import ESLTS from "./ESLTS.jpg";
 
 import Nahom from "./Nahom.jpg";
 import tekle from "./tekle.jpg";
+import Ela from "./Ela.jpg";
 
 export {
   logo,
@@ -62,4 +63,5 @@ export {
   ESLTS,
   Nahom,
   tekle,
+  Ela,
 };
