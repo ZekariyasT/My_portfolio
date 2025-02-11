@@ -196,20 +196,20 @@ const projects = [
     source_code_link: "https://github.com/ZekariyasT/ESLTS",
   },
   {
-    name: "Job IT",
+    name: "Azo Gebeya",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "Next js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "React js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Mongo db",
         color: "pink-text-gradient",
       },
     ],
