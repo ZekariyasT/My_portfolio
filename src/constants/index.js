@@ -198,7 +198,7 @@ const projects = [
   {
     name: "Azo Gebeya",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Next.js-based e-commerce platform tailored for the Ethiopian market, providing a seamless and secure online shopping experience.",
     tags: [
       {
         name: "Next js",
