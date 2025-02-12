@@ -33,6 +33,7 @@ import covid from "./covid.png";
 import Nahom from "./Nahom.jpg";
 import tekle from "./tekle.jpg";
 import Ela from "./Ela.jpg";
+import zeki from "./zeki.png";
 
 export {
   logo,
@@ -66,4 +67,5 @@ export {
   tekle,
   Ela,
   covid,
+  zeki,
 };
