@@ -25,6 +25,7 @@ import {
   Nahom,
   tekle,
   Ela,
+  covid,
 } from "../assets";
 
 export const navLinks = [
@@ -56,7 +57,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Flutter Developer",
     icon: creator,
   },
 ];
@@ -217,25 +218,25 @@ const projects = [
     source_code_link: "https://github.com/ZekariyasT/azo-gebeya",
   },
   {
-    name: "Trip Guide",
+    name: "COVID-19 Tracker ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a Flutter-based mobile application to track COVID-19 statistics with real-time data. ",
     tags: [
       {
-        name: "nextjs",
+        name: "Fulutter",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Node js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Mongo db",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: covid,
+    source_code_link: "https://github.com/ZekariyasT/Covid19_tracker_master",
   },
 ];
 

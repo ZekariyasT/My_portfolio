@@ -28,6 +28,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ESLTS from "./ESLTS.jpg";
+import covid from "./covid.png";
 
 import Nahom from "./Nahom.jpg";
 import tekle from "./tekle.jpg";
@@ -64,4 +65,5 @@ export {
   Nahom,
   tekle,
   Ela,
+  covid,
 };
