@@ -35,18 +35,18 @@ const Footer = () => {
         <div className="text-center">
           <h2 className="text-lg font-bold mb-4 text-white ">Follow Me</h2>
           <ul className="flex space-x-4 justify-center items-center">
-            <li>
-              <FaGithub className="text-gray-500" />
+            <li className="flex justify-center items-center">
+              <FaGithub className="text-gray-500" /> &nbsp; &nbsp;
               <a href="https://github.com/ZekariyasT">Github</a>
             </li>
-            <li>
-              <FaLinkedin className="text-blue-500" />
+            <li className="flex justify-center items-center">
+              <FaLinkedin className="text-blue-500" /> &nbsp; &nbsp;
               <a href="https://www.linkedin.com/in/zekariyas-tesfaye-53a0791a6/">
                 Linkedin
               </a>
             </li>
-            <li>
-              <FaInstagram className="text-pink-500" />
+            <li className="flex justify-center items-center">
+              <FaInstagram className="text-pink-500 flex" /> &nbsp; &nbsp;
               <a href="https://www.instagram.com/zekariyas_tesfaye/">
                 Instagram
               </a>
