@@ -37,17 +37,25 @@ const Footer = () => {
           <ul className="flex space-x-4 justify-center items-center">
             <li className="flex justify-center items-center">
               <FaGithub className="text-gray-500" /> &nbsp; &nbsp;
-              <a href="https://github.com/ZekariyasT">Github</a>
+              <a href="https://github.com/ZekariyasT" target="_blank">
+                Github
+              </a>
             </li>
             <li className="flex justify-center items-center">
               <FaLinkedin className="text-blue-500" /> &nbsp; &nbsp;
-              <a href="https://www.linkedin.com/in/zekariyas-tesfaye-53a0791a6/">
+              <a
+                href="https://www.linkedin.com/in/zekariyas-tesfaye-53a0791a6/"
+                target="_blank"
+              >
                 Linkedin
               </a>
             </li>
             <li className="flex justify-center items-center">
               <FaInstagram className="text-pink-500 flex" /> &nbsp; &nbsp;
-              <a href="https://www.instagram.com/zekariyas_tesfaye/">
+              <a
+                href="https://www.instagram.com/zekariyas_tesfaye/"
+                target="_blank"
+              >
                 Instagram
               </a>
             </li>
