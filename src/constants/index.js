@@ -1,7 +1,6 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
@@ -17,9 +16,8 @@ import {
   nextjs,
   nexusLabs,
   danEnergy,
-  carrent,
   jobit,
-  tripguide,
+  task,
   threejs,
   ESLTS,
   Nahom,
@@ -49,17 +47,17 @@ const services = [
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Frontend ",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Backend ",
     icon: backend,
   },
-  {
-    title: "Flutter Developer",
-    icon: creator,
-  },
+  // {
+  //   title: "Flutter Developer",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
@@ -119,38 +117,38 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "React Native Internship",
     company_name: "DanEnergy",
     icon: danEnergy,
     iconBg: "#383E56",
     date: "july 2023 - November 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining Mobile applications using React Native and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
 
-  {
-    title: "Full stack Developer",
-    company_name: "NexusLabs",
-    icon: nexusLabs,
-    iconBg: "#E6DEDD",
-    date: "Jan 2024 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "NexusLabs",
+  //   icon: nexusLabs,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2024 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [
   {
     testimonial:
-      "Zack is an outstanding Full Stack Developer, bringing innovation, efficiency, and top-quality solutions to Nexus Labs!",
+      "Zack is an outstanding Software Developer, bringing innovation, efficiency, and top-quality solutions to the people!",
     name: "Tekletsadik Aknaw",
     designation: "CEO",
     company: "Nexus Labs",
@@ -158,7 +156,7 @@ const testimonials = [
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Zack does.",
+      "I've never met a web developer who truly cares about their problem solving like Zack does.",
     name: "Nahom Birhanu",
     designation: "COO",
     company: "FNet Solution",
@@ -178,18 +176,18 @@ const projects = [
   {
     name: "ESLTS",
     description:
-      "ESLTS is an AI-powered system that translates Ethiopian Sign Language (EthSL) into text, enhancing communication and accessibility for the Deaf community. 🚀",
+      "ESLTS is an AI-powered system that translates Ethiopian Sign Language (EthSL) into text, enhancing communication and accessibility for the hard-of-hearing community. ",
     tags: [
       {
         name: "Python",
         color: "blue-text-gradient",
       },
       {
-        name: "deep learning",
+        name: "OpenCV ",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "LSTM",
         color: "pink-text-gradient",
       },
     ],
@@ -197,46 +195,47 @@ const projects = [
     source_code_link: "https://github.com/ZekariyasT/ESLTS",
   },
   {
-    name: "Azo Gebeya",
+    name: "AMU Long distance Student Managment System",
     description:
-      "A Next.js-based e-commerce platform tailored for the Ethiopian market, providing a seamless and secure online shopping experience.",
+      "Long-Distance Student Management System for Arba Minch University to facilitate seamless interaction between students, instructors, and administrators.",
     tags: [
       {
-        name: "Next js",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "React js",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "Mongo db",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/ZekariyasT/azo-gebeya",
+    source_code_link:
+      "https://github.com/ZekariyasT/Arba-Minch-University-Long-Distance-Student-Management-Website-2021-",
   },
   {
-    name: "COVID-19 Tracker ",
+    name: "Field Worker App",
     description:
-      "Developed a Flutter-based mobile application to track COVID-19 statistics with real-time data. ",
+      "The Field Worker App is a mobile application designed to enhance efficiency in on-field operations by providing real-time task management, GPS tracking, and seamless communication between supervisors and field workers. ",
     tags: [
       {
-        name: "Fulutter",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "Node js",
+        name: "Redux ",
         color: "green-text-gradient",
       },
       {
-        name: "Mongo db",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: covid,
-    source_code_link: "https://github.com/ZekariyasT/Covid19_tracker_master",
+    image: task,
+    source_code_link: "https://github.com/ZekariyasT/FieldWorker",
   },
 ];
 

@@ -24,9 +24,8 @@ import threejs from "./tech/threejs.svg";
 import danEnergy from "./company/danEnergy.png";
 import nexusLabs from "./company/nexusLabs.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import jobit from "./jobit.jpg";
+import task from "./task.jpg";
 import ESLTS from "./ESLTS.jpg";
 import covid from "./covid.png";
 
@@ -59,9 +58,8 @@ export {
   threejs,
   danEnergy,
   nexusLabs,
-  carrent,
   jobit,
-  tripguide,
+  task,
   ESLTS,
   Nahom,
   tekle,
