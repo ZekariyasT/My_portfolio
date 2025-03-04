@@ -54,10 +54,10 @@ const services = [
     title: "Backend ",
     icon: backend,
   },
-  // {
-  //   title: "Flutter Developer",
-  //   icon: creator,
-  // },
+  {
+    title: "Flutter Developer",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -117,7 +117,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React Native Internship",
+    title: "Backend developer ",
     company_name: "DanEnergy",
     icon: danEnergy,
     iconBg: "#383E56",
@@ -130,19 +130,19 @@ const experiences = [
     ],
   },
 
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "NexusLabs",
-  //   icon: nexusLabs,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2024 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Full stack Developer",
+    company_name: "NexusLabs",
+    icon: nexusLabs,
+    iconBg: "#E6DEDD",
+    date: "Jan 2024 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -200,15 +200,15 @@ const projects = [
       "Long-Distance Student Management System for Arba Minch University to facilitate seamless interaction between students, instructors, and administrators.",
     tags: [
       {
-        name: "HTML",
+        name: "React js",
         color: "blue-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Node js",
         color: "green-text-gradient",
       },
       {
-        name: "Javascript",
+        name: "Express js",
         color: "pink-text-gradient",
       },
     ],
