@@ -23,7 +23,6 @@ import {
   Nahom,
   tekle,
   Ela,
-  covid,
 } from "../assets";
 
 export const navLinks = [
@@ -54,10 +53,10 @@ const services = [
     title: "Backend ",
     icon: backend,
   },
-  {
-    title: "Flutter Developer",
-    icon: creator,
-  },
+  // {
+  //   title: "Flutter Developer",
+  //   icon: creator,
+  // },
 ];
 
 const technologies = [
