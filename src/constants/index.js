@@ -225,7 +225,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Redux ",
+        name: "Node js ",
         color: "green-text-gradient",
       },
       {
