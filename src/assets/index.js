@@ -23,6 +23,7 @@ import typescript from "./tech/typescript.png";
 import danEnergy from "./company/danEnergy.png";
 import nexusLabs from "./company/nexusLabs.png";
 
+import sportings from "./sportings.png";
 import jobit from "./jobit.jpg";
 import task from "./task.jpg";
 import ESLTS from "./ESLTS.jpg";
@@ -58,6 +59,7 @@ export {
   typescript,
   danEnergy,
   nexusLabs,
+  sportings,
   jobit,
   task,
   ESLTS,
