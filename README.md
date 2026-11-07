@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Zekariyas Tesfaye Desta</h1>
   <p><strong>Backend Software Engineer & M.Sc. Computer Science Student at the University of Salzburg</strong></p>
-  <p>Salzburg, Austria • <a href="mailto:zekariyastesfayedesta@gmail.com">zekariyastesfayedesta@gmail.com</a> • <a href="https://github.com/ZekariyasT">GitHub</a> • <a href="https://www.linkedin.com/in/zekariyas-tesfaye-53a0791a6/">LinkedIn</a></p>
+  <p>Salzburg, Austria • <a href="mailto:zekariyastesfayedesta@gmail.com">zekariyastesfayedesta@gmail.com</a> • <a href="https://github.com/ZekariyasT">GitHub</a> • <a href="https://www.linkedin.com/in/zekariyas-tesfaye-desta-53a0791a6/">LinkedIn</a></p>
 </div>
 
 ---

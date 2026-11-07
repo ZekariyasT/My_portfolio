@@ -29,7 +29,7 @@ export const personalInfo = {
   email: "zekariyastesfayedesta@gmail.com",
   phone: "+436642392413",
   github: "https://github.com/ZekariyasT",
-  linkedin: "https://www.linkedin.com/in/zekariyas-tesfaye-53a0791a6/",
+  linkedin: "https://www.linkedin.com/in/zekariyas-tesfaye-desta-53a0791a6/",
   languages: [
     { name: "English", level: "C1" },
     { name: "German", level: "A2" },
