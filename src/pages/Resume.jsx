@@ -4,21 +4,25 @@ import {
   SiJavascript,
   SiTypescript,
   SiPostgresql,
-  SiPython,
   SiNodedotjs,
   SiExpress,
   SiMysql,
   SiMongodb,
   SiGit,
+  SiGithub,
   SiPostman,
+  SiReact,
+  SiNextdotjs,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
-import { TbApi, TbDatabase, TbShieldLock } from "react-icons/tb";
+import { TbApi, TbDatabase, TbTerminal2, TbShieldLock } from "react-icons/tb";
 import { personalInfo, experiences, education } from "../constants";
 
 const aboutData = {
   title: "About Me",
   description:
-    "I am a Master's student in Computer Science at the University of Salzburg. My main focus is backend development, building robust REST APIs, managing relational and document databases, and solving complex architectural problems.",
+    "Master’s student in Computer Science at the University of Salzburg, focused on backend development with JavaScript, Node.js, Express, MongoDB, and SQL. Experienced in building REST APIs, database integration, and backend systems through real-world projects, including a freelance marketplace and a goods distribution platform.",
   info: [
     { fieldName: "Name", fieldValue: personalInfo.name },
     { fieldName: "Phone", fieldValue: personalInfo.phone },
@@ -34,21 +38,21 @@ const aboutData = {
 const experienceData = {
   title: "My Experience",
   description:
-    "Proven track record building production-grade backend APIs, integrating PostgreSQL and MongoDB, and delivering civic-scale logistics coordination systems.",
+    "Delivered robust backend features, RESTful API endpoints, and database functionality across real-world commercial platforms and civic-scale distribution systems.",
   items: [
     {
-      company: "IBEX Technologies And Promotion PLC",
+      company: "IBEX Technologies And Promotion PLC (Hybrid)",
       position: "Software Engineer",
       duration: "Feb 2023 – Jun 2025",
       highlight:
-        "Engineered goods-distribution platform for Bole Sub-City; built 15+ REST endpoints with Node/Express; integrated PostgreSQL & MongoDB; delivered 10+ backend optimizations.",
+        "Built backend features for a Bole Sub-City goods-distribution platform to track essential goods such as cooking oil and sugar. Implemented tracking & coordination features for cooperatives, government offices, and retailers. Contributed 15+ REST API endpoints using Node.js & Express, integrated PostgreSQL and MongoDB, and delivered 10+ backend improvements through testing, debugging, and optimization.",
     },
     {
       company: "Dan Energy",
       position: "Software Engineer Intern",
       duration: "Mar 2022 – Oct 2022",
       highlight:
-        "Developed and delivered 10+ backend features across 5+ application modules; improved application performance by ~20% through code optimization.",
+        "Delivered 10+ backend features using Node.js, Express, and SQL based on real project requirements. Built and maintained REST APIs and database functionality across 5+ application modules. Fixed bugs and optimized backend code, improving application performance by around 20%.",
     },
   ],
 };
@@ -56,7 +60,7 @@ const experienceData = {
 const educationData = {
   title: "My Education",
   description:
-    "Rigorous computer science graduate research in Austria combined with top-tier undergraduate engineering distinction.",
+    "Rigorous computer science graduate study at the University of Salzburg backed by a distinguished Bachelor's degree in Software Engineering.",
   items: [
     {
       institution: "University of Salzburg",
@@ -67,10 +71,10 @@ const educationData = {
     },
     {
       institution: "Arba Minch University",
-      degree: "B.Sc. in Software Engineering",
+      degree: "Bachelor of Science in Software Engineering",
       duration: "Sep 2019 – Jul 2024",
       highlight:
-        "Graduated with Distinction • CGPA: 3.86 / 4.0 • Coursework: Software Architecture & Agile Development.",
+        "CGPA: 3.86 / 4.0 • Relevant coursework in Software Architecture and Agile Development.",
     },
   ],
 };
@@ -78,20 +82,22 @@ const educationData = {
 const skillsData = {
   title: "My Skills",
   description:
-    "Specialized technical competencies honed across production microservices, data modeling, and performance optimization.",
+    "Technical toolkit spanning backend API development, databases, frontend integration, and developer tooling.",
   skillList: [
     { icon: <SiNodedotjs />, name: "Node.js" },
     { icon: <SiExpress />, name: "Express.js" },
+    { icon: <TbApi />, name: "REST APIs" },
     { icon: <SiPostgresql />, name: "PostgreSQL" },
     { icon: <SiMysql />, name: "MySQL" },
     { icon: <SiMongodb />, name: "MongoDB" },
-    { icon: <TbApi />, name: "REST APIs" },
     { icon: <SiJavascript />, name: "JavaScript" },
     { icon: <SiTypescript />, name: "TypeScript" },
     { icon: <TbDatabase />, name: "Database Design" },
-    { icon: <SiPython />, name: "Python" },
-    { icon: <SiGit />, name: "Git" },
+    { icon: <SiReact />, name: "React.js" },
+    { icon: <SiNextdotjs />, name: "Next.js" },
+    { icon: <SiGit />, name: "Git & GitHub" },
     { icon: <SiPostman />, name: "Postman" },
+    { icon: <TbTerminal2 />, name: "Backend Testing" },
   ],
 };
 
@@ -164,7 +170,7 @@ const Resume = () => {
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 text-sm sm:text-base leading-relaxed">
                   {experienceData.description}
                 </p>
-                <div className="h-[440px] overflow-y-auto pr-2 space-y-4">
+                <div className="h-[460px] overflow-y-auto pr-2 space-y-4">
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                     {experienceData.items.map((item, index) => (
                       <div
@@ -175,7 +181,7 @@ const Resume = () => {
                           <span className="text-accent text-sm font-semibold">
                             {item.duration}
                           </span>
-                          <h4 className="text-xl font-bold max-w-[260px] text-white mt-1">
+                          <h4 className="text-xl font-bold max-w-[280px] text-white mt-1">
                             {item.position}
                           </h4>
                           <div className="flex items-center gap-3 my-2">
@@ -202,7 +208,7 @@ const Resume = () => {
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 text-sm sm:text-base leading-relaxed">
                   {educationData.description}
                 </p>
-                <div className="h-[440px] overflow-y-auto pr-2 space-y-4">
+                <div className="h-[460px] overflow-y-auto pr-2 space-y-4">
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
                     {educationData.items.map((item, index) => (
                       <div
@@ -240,7 +246,7 @@ const Resume = () => {
                 <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0 text-sm sm:text-base leading-relaxed">
                   {skillsData.description}
                 </p>
-                <div className="h-[440px] overflow-y-auto pr-2">
+                <div className="h-[460px] overflow-y-auto pr-2">
                   <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[25px]">
                     {skillsData.skillList.map((skill, index) => (
                       <li key={index} className="relative group">

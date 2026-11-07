@@ -9,6 +9,7 @@ import {
   ESLTS,
   jobit,
   task,
+  covid,
   zeki,
   Nahom,
   tekle,
@@ -27,18 +28,18 @@ export const personalInfo = {
   github: "https://github.com/ZekariyasT",
   linkedin: "https://www.linkedin.com/in/zekariyas-tesfaye-53a0791a6/",
   languages: [
-    { name: "English", level: "C1 Fluent" },
-    { name: "German", level: "A2 Elementary" },
+    { name: "English", level: "C1" },
+    { name: "German", level: "A2" },
   ],
   summary:
-    "I am a Master's student in Computer Science at the University of Salzburg. My main focus is backend development, and I work mostly with JavaScript, Node.js, Express, MongoDB, and SQL. I have built REST APIs, worked with databases, and handled backend logic for web applications. I like solving problems, learning by building projects, and improving my code as I gain more experience.",
+    "Master's student in Computer Science at the University of Salzburg, focused on backend development with JavaScript, Node.js, Express, MongoDB, and SQL. Experienced in building REST APIs, database integration, and backend systems through real-world projects, including a freelance marketplace and a goods distribution platform.",
 };
 
 export const stats = [
-  { value: "55+", label: "REST Endpoints Built", detail: "Across enterprise & community platforms" },
-  { value: "20+", label: "Relational & NoSQL Models", detail: "PostgreSQL, MySQL & MongoDB" },
+  { value: "2+", label: "Years of Experience", detail: "Production & internship roles" },
+  { value: "40+", label: "REST Endpoints Built", detail: "High-throughput APIs" },
+  { value: "25+", label: "Database Tables & Models", detail: "PostgreSQL, MySQL & MongoDB" },
   { value: "30%", label: "Query Optimization", detail: "Performance improvements achieved" },
-  { value: "3.86", label: "Software Eng. CGPA", detail: "Top honours at Arba Minch University" },
 ];
 
 export const navLinks = [
@@ -54,26 +55,26 @@ export const coreCompetencies = [
   {
     title: "REST API Engineering",
     description:
-      "Architecting modular, secure, and production-ready REST endpoints with Node.js and Express. Authentication, rate limiting, and robust input validation.",
+      "Architecting modular, secure, and production-ready REST endpoints with Node.js and Express. Authentication, CRUD, and rate limiting.",
     badge: "Backend Core",
   },
   {
     title: "Database Modeling & Tuning",
     description:
-      "Designing complex relational schemas (PostgreSQL, MySQL) and flexible document models (MongoDB). Indexing, normalization, and 20-30% query speed improvements.",
+      "Managing relational schemas (PostgreSQL, MySQL) and document collections (MongoDB). Optimizing queries for 30% faster execution.",
     badge: "Data & Storage",
   },
   {
-    title: "Distributed Systems & Logic",
+    title: "Full-Stack & Marketplace Systems",
     description:
-      "Exploring distributed architectures, microservices, and backend reliability principles as part of ongoing Master's research at the University of Salzburg.",
+      "Building marketplace architectures connecting multi-tier users, implementing real-time messaging, payment integration, and service contracts.",
     badge: "System Design",
   },
   {
-    title: "Testing & Debugging",
+    title: "Testing, Debugging & Optimization",
     description:
-      "Rigorous API verification with Postman, automated backend test suites, profiling bottlenecks, and rapid root-cause debugging for high uptime.",
-    badge: "Quality Assurance",
+      "API verification with Postman, debugging backend code, and delivering optimizations that enhance response times by 20% to 30%.",
+    badge: "Quality & Perf",
   },
 ];
 
@@ -81,37 +82,45 @@ export const skillCategories = [
   {
     category: "Languages",
     skills: [
-      { name: "JavaScript (ES6+)", level: "Advanced", icon: "SiJavascript", color: "#F7DF1E" },
+      { name: "JavaScript", level: "Advanced", icon: "SiJavascript", color: "#F7DF1E" },
       { name: "TypeScript", level: "Intermediate", icon: "SiTypescript", color: "#3178C6" },
-      { name: "SQL (Postgres/MySQL)", level: "Advanced", icon: "SiPostgresql", color: "#4169E1" },
-      { name: "Python", level: "Intermediate", icon: "SiPython", color: "#3776AB" },
+      { name: "SQL", level: "Advanced", icon: "SiPostgresql", color: "#4169E1" },
     ],
   },
   {
-    category: "Backend & Frameworks",
+    category: "Frontend",
+    skills: [
+      { name: "HTML", level: "Advanced", icon: "SiHtml5", color: "#E34F26" },
+      { name: "CSS", level: "Advanced", icon: "SiCss3", color: "#1572B6" },
+      { name: "React.js", level: "Advanced", icon: "SiReact", color: "#61DAFB" },
+      { name: "Next.js", level: "Advanced", icon: "SiNextdotjs", color: "#FFFFFF" },
+    ],
+  },
+  {
+    category: "Backend & APIs",
     skills: [
       { name: "Node.js", level: "Advanced", icon: "SiNodedotjs", color: "#339933" },
       { name: "Express.js", level: "Advanced", icon: "SiExpress", color: "#E2E8F0" },
-      { name: "RESTful APIs", level: "Advanced", icon: "TbApi", color: "#06B6D4" },
-      { name: "Authentication (JWT / CRUD)", level: "Advanced", icon: "TbShieldLock", color: "#10B981" },
+      { name: "REST APIs", level: "Advanced", icon: "TbApi", color: "#06B6D4" },
+      { name: "Authentication & CRUD", level: "Advanced", icon: "TbShieldLock", color: "#10B981" },
     ],
   },
   {
-    category: "Databases & Storage",
+    category: "Databases",
     skills: [
       { name: "PostgreSQL", level: "Proficient", icon: "SiPostgresql", color: "#336791" },
       { name: "MySQL", level: "Advanced", icon: "SiMysql", color: "#4479A1" },
       { name: "MongoDB", level: "Advanced", icon: "SiMongodb", color: "#47A248" },
-      { name: "Database Design & Indexing", level: "Advanced", icon: "TbDatabase", color: "#F59E0B" },
+      { name: "Database Design", level: "Advanced", icon: "TbDatabase", color: "#F59E0B" },
     ],
   },
   {
-    category: "Tools & Core Practices",
+    category: "Tools & Core",
     skills: [
-      { name: "Git & GitHub", level: "Advanced", icon: "SiGit", color: "#F05032" },
+      { name: "Git", level: "Advanced", icon: "SiGit", color: "#F05032" },
+      { name: "GitHub", level: "Advanced", icon: "SiGithub", color: "#FFFFFF" },
       { name: "Postman", level: "Advanced", icon: "SiPostman", color: "#FF6C37" },
-      { name: "Backend Testing & QA", level: "Proficient", icon: "TbChecklist", color: "#8B5CF6" },
-      { name: "API Debugging & Profiling", level: "Advanced", icon: "TbTerminal2", color: "#EC4899" },
+      { name: "Backend Testing & Debugging", level: "Advanced", icon: "TbTerminal2", color: "#EC4899" },
     ],
   },
 ];
@@ -119,17 +128,16 @@ export const skillCategories = [
 export const experiences = [
   {
     title: "Software Engineer",
-    company_name: "IBEX Technologies And Promotion PLC",
+    company_name: "IBEX Technologies And Promotion PLC (Hybrid)",
     icon: nexusLabs,
     iconBg: "#111827",
     date: "Feb 2023 – Jun 2025",
-    location: "Addis Ababa, Ethiopia",
-    type: "Full-Time",
+    location: "Addis Ababa, Ethiopia (Hybrid)",
+    type: "Hybrid",
     points: [
-      "Developed a goods-distribution platform for Bole Sub-City, connecting retail cooperatives, sub-city and woreda offices, and retailers to coordinate the distribution of essential goods such as cooking oil and sugar.",
-      "Built 15+ REST API endpoints using Node.js and Express to support distribution workflows.",
-      "Integrated PostgreSQL and MongoDB to manage relational and document-based data.",
-      "Delivered 10+ backend improvements through debugging, API testing, and code optimization.",
+      "Built backend features for a Bole Sub-City goods-distribution platform to track essential goods such as cooking oil and sugar.",
+      "Implemented tracking and coordination features that helped cooperatives, government offices, and retailers monitor deliveries and maintain distribution accountability.",
+      "Contributed 15+ REST API endpoints using Node.js and Express, integrated PostgreSQL and MongoDB, and delivered 10+ backend improvements through testing, debugging, and optimization.",
     ],
     tech: ["Node.js", "Express.js", "PostgreSQL", "MongoDB", "REST APIs", "Debugging"],
   },
@@ -142,26 +150,26 @@ export const experiences = [
     location: "Addis Ababa, Ethiopia",
     type: "Internship",
     points: [
-      "Developed and delivered 10+ backend features based on real project requirements.",
+      "Delivered 10+ backend features using Node.js, Express, and SQL based on real project requirements.",
       "Built and maintained REST APIs and database functionality across 5+ application modules.",
       "Fixed bugs and optimized backend code, improving application performance by around 20%.",
     ],
-    tech: ["Node.js", "REST APIs", "Database Optimization", "Bug Fixing", "Git"],
+    tech: ["Node.js", "Express.js", "SQL", "REST APIs", "Optimization"],
   },
 ];
 
 export const education = [
   {
-    degree: "Master of Computer Science",
+    degree: "Masters of Computer Science",
     institution: "University of Salzburg",
     location: "Salzburg, Austria",
     period: "Oct 2025 – Present",
     status: "In Progress",
     description:
-      "Advanced graduate study focusing on Backend Development, Database Systems, Distributed Systems, and Software Engineering.",
+      "Focus: Backend Development, Database Systems, Distributed Systems, and Software Engineering.",
     highlights: [
-      "Distributed Systems Architecture",
-      "Advanced Database Systems",
+      "Backend Development & Distributed Systems",
+      "Database Systems Architecture",
       "Software Engineering & Reliability",
     ],
   },
@@ -171,96 +179,112 @@ export const education = [
     location: "Arba Minch, Ethiopia",
     period: "Sep 2019 – Jul 2024",
     status: "Graduated with Distinction",
-    cgpa: "CGPA: 3.86 / 4.0",
+    cgpa: "CGPA: 3.86/4.0",
     description:
-      "Comprehensive curriculum in computer science fundamentals, software architecture, object-oriented design, and agile methodologies.",
+      "Relevant coursework in Software Architecture and Agile Development.",
     highlights: [
-      "CGPA: 3.86/4.0 (Top tier academic standing)",
-      "Relevant Coursework: Software Architecture & Agile Development",
-      "Capstone Project in AI & Applied Software Systems",
+      "CGPA: 3.86 / 4.0",
+      "Software Architecture",
+      "Agile Development",
     ],
   },
 ];
 
 export const projects = [
   {
-    name: "STEM Power Ethiopia – Website Backend",
+    num: "01",
+    name: "SPORTINGS – Sports Commerce Marketplace",
+    title: "SPORTINGS – Sports Commerce Marketplace",
+    category: "Sports Commerce Platform",
     role: "Backend Architect",
-    metric: "40+ Endpoints | +30% Speed",
+    metric: "40+ Endpoints | 25+ Tables | +30% Speed",
     description:
-      "Engineered the full backend architecture for STEM Power Ethiopia across multiple modules. Designed and managed 20+ MySQL tables supporting thousands of records and complex relational entities, achieving 30% performance boost through query optimization.",
+      "Built the backend of SPORTINGS, a large-scale sports-commerce platform using Node.js, Express, and SQL. Implemented 40+ REST API endpoints, managed 25+ database tables, and optimized queries for 30% faster performance across marketplace workflows.",
     highlights: [
-      "Built 40+ REST API endpoints with Node.js and Express",
-      "Designed and managed 20+ MySQL tables supporting thousands of records",
-      "Improved API and database performance by 30% via query optimization",
+      "Built the backend of SPORTINGS, a large-scale sports-commerce platform using Node.js, Express, and SQL",
+      "Implemented 40+ REST API endpoints and managed 25+ database tables",
+      "Optimized queries for 30% faster performance across marketplace workflows",
+    ],
+    stack: [
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "SQL" },
+      { name: "REST APIs" },
+      { name: "Query Optimization" },
     ],
     tags: [
-      { name: "Node.js", color: "text-emerald-400" },
+      { name: "Node.js", color: "text-accent" },
       { name: "Express.js", color: "text-slate-300" },
-      { name: "MySQL", color: "text-cyan-400" },
-      { name: "Query Optimization", color: "text-amber-400" },
+      { name: "SQL", color: "text-cyan-400" },
+      { name: "Query Optimization", color: "text-emerald-400" },
     ],
     image: jobit,
+    live: "https://github.com/ZekariyasT",
+    github: "https://github.com/ZekariyasT",
     source_code_link: "https://github.com/ZekariyasT",
   },
   {
-    name: "Dereja Tura Engineering – Website",
-    role: "Backend Developer",
-    metric: "10+ Endpoints | +20% Response Time",
+    num: "02",
+    name: "Elite Ethiopia eService – Freelance & Digital Marketplace",
+    title: "Elite Ethiopia eService – Freelance & Digital Marketplace",
+    category: "Full-Stack Marketplace Platform",
+    role: "Full-Stack & Backend Engineer",
+    metric: "4 User Groups | 7 Modules | Telebirr",
     description:
-      "Developed high-performance REST APIs for corporate engineering services, inquiries, and customer management. Built 6+ MongoDB collections and accelerated API response times by 20% through code optimization.",
+      "Created a full-stack marketplace using Next.js, connecting 4 user groups through 7 core modules. Implemented 20+ key features, including freelance hiring, service contracts, digital product sales, real-time messaging, Telebirr (Ethiopian mobile-money) payments, ratings, and dispute management.",
     highlights: [
-      "Developed 10+ REST API endpoints using Node.js and Express",
-      "Built and managed 6+ database collections for content & customer inquiries",
-      "Improved API response time by 20% through query and backend code tuning",
+      "Created a full-stack marketplace using Next.js connecting 4 user groups through 7 core modules",
+      "Implemented 20+ key features: freelance hiring, service contracts, and digital product sales",
+      "Integrated real-time messaging, Telebirr mobile-money payments, ratings, and dispute management",
+    ],
+    stack: [
+      { name: "Next.js" },
+      { name: "React.js" },
+      { name: "Node.js" },
+      { name: "Telebirr Payments" },
+      { name: "WebSockets" },
     ],
     tags: [
-      { name: "Node.js", color: "text-emerald-400" },
-      { name: "Express.js", color: "text-slate-300" },
-      { name: "MongoDB", color: "text-green-400" },
-      { name: "API Optimization", color: "text-cyan-400" },
+      { name: "Next.js", color: "text-accent" },
+      { name: "React.js", color: "text-cyan-400" },
+      { name: "Telebirr", color: "text-emerald-400" },
+      { name: "Real-Time Messaging", color: "text-amber-400" },
     ],
     image: task,
+    live: "https://github.com/ZekariyasT",
+    github: "https://github.com/ZekariyasT",
     source_code_link: "https://github.com/ZekariyasT",
   },
   {
-    name: "Bole Goods-Distribution Platform",
-    role: "Backend Software Engineer",
-    metric: "15+ Endpoints | Multi-Tier Sync",
+    num: "03",
+    name: "STEM Power Ethiopia – Website Backend",
+    title: "STEM Power Ethiopia – Website Backend",
+    category: "Backend Architecture & Optimization",
+    role: "Backend Engineer",
+    metric: "40+ Endpoints | MySQL Tables | +30% Speed",
     description:
-      "Municipal distribution coordination system for Bole Sub-City connecting retail cooperatives, sub-city/woreda offices, and local retailers to distribute essential goods (cooking oil, sugar) equitably.",
+      "Engineered high-performance website backend services for STEM Power Ethiopia. Designed and managed 20+ MySQL tables, delivered 40+ REST API endpoints, and optimized database queries for 30% performance boost.",
     highlights: [
-      "Coordinated distribution workflows between retail co-ops, sub-city, and woreda offices",
-      "Built 15+ secure REST API endpoints with Node.js & Express",
-      "Hybrid data architecture with PostgreSQL and MongoDB",
+      "Built 40+ REST API endpoints with Node.js and Express across multiple website modules",
+      "Designed and managed 20+ MySQL tables supporting complex relational workflows",
+      "Delivered 30% speedup via database query indexing and backend optimization",
+    ],
+    stack: [
+      { name: "Node.js" },
+      { name: "Express.js" },
+      { name: "MySQL" },
+      { name: "REST APIs" },
     ],
     tags: [
-      { name: "Node.js", color: "text-emerald-400" },
-      { name: "PostgreSQL", color: "text-indigo-400" },
-      { name: "MongoDB", color: "text-green-400" },
-      { name: "Workflow APIs", color: "text-purple-400" },
+      { name: "Node.js", color: "text-accent" },
+      { name: "Express.js", color: "text-slate-300" },
+      { name: "MySQL", color: "text-cyan-400" },
+      { name: "Query Optimization", color: "text-emerald-400" },
     ],
     image: ESLTS,
+    live: "https://github.com/ZekariyasT",
+    github: "https://github.com/ZekariyasT",
     source_code_link: "https://github.com/ZekariyasT",
-  },
-  {
-    name: "ESLTS – Ethiopian Sign Language Translation",
-    role: "Lead Machine Learning & Backend Developer",
-    metric: "Computer Vision & Deep Learning",
-    description:
-      "AI-powered translation platform translating Ethiopian Sign Language (EthSL) into readable text, breaking communication barriers for the hard-of-hearing community in Ethiopia.",
-    highlights: [
-      "Trained LSTM deep learning models on custom EthSL gesture datasets",
-      "Integrated OpenCV pipeline for real-time landmark extraction",
-      "Interactive interface bridging accessibility and software engineering",
-    ],
-    tags: [
-      { name: "Python", color: "text-yellow-400" },
-      { name: "OpenCV", color: "text-red-400" },
-      { name: "LSTM / AI", color: "text-pink-400" },
-    ],
-    image: ESLTS,
-    source_code_link: "https://github.com/ZekariyasT/ESLTS",
   },
 ];
 

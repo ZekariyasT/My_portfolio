@@ -7,7 +7,6 @@ import { personalInfo } from "../constants";
 
 const Home = () => {
   const handleDownloadCV = () => {
-    // Open a formatted print/save window of the CV or printable view
     window.print();
   };
 
@@ -26,8 +25,7 @@ const Home = () => {
               <span className="text-accent">{personalInfo.name}</span>
             </h1>
             <p className="max-w-[540px] mb-9 text-white/80 text-base leading-relaxed">
-              Master's student in Computer Science at the <strong className="text-white">University of Salzburg</strong>. 
-              I specialize in robust backend architecture, scalable RESTful APIs, database design (PostgreSQL, MySQL, MongoDB), and distributed systems engineering.
+              Master’s student in Computer Science at the <strong className="text-white">University of Salzburg</strong>, focused on backend development with JavaScript, Node.js, Express, MongoDB, and SQL. Experienced in building REST APIs, database integration, and backend systems through real-world projects, including a freelance marketplace and a goods distribution platform.
             </p>
 
             {/* Action Buttons & Socials */}
