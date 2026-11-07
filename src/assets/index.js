@@ -24,6 +24,7 @@ import danEnergy from "./company/danEnergy.png";
 import nexusLabs from "./company/nexusLabs.png";
 
 import sportings from "./sportings.png";
+import elite from "./elite.png";
 import jobit from "./jobit.jpg";
 import task from "./task.jpg";
 import ESLTS from "./ESLTS.jpg";
@@ -60,6 +61,7 @@ export {
   danEnergy,
   nexusLabs,
   sportings,
+  elite,
   jobit,
   task,
   ESLTS,
