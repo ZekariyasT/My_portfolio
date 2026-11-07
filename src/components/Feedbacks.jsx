@@ -1,10 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import { FaQuoteLeft } from "react-icons/fa";
 
 const FeedbackCard = ({
   index,
@@ -15,29 +15,27 @@ const FeedbackCard = ({
   image,
 }) => (
   <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
-    className='bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full'
+    variants={fadeIn("", "spring", index * 0.2, 0.75)}
+    className="p-7 rounded-3xl bg-gradient-to-b from-slate-900/80 to-[#0e1526]/80 border border-slate-800 hover:border-slate-700 transition-all shadow-xl flex flex-col justify-between"
   >
-    <p className='text-white font-black text-[48px]'>"</p>
+    <div>
+      <FaQuoteLeft className="text-cyan-500/30 text-3xl mb-4" />
+      <p className="text-slate-300 text-sm leading-relaxed mb-6 italic">
+        "{testimonial}"
+      </p>
+    </div>
 
-    <div className='mt-1'>
-      <p className='text-white tracking-wider text-[18px]'>{testimonial}</p>
-
-      <div className='mt-7 flex justify-between items-center gap-1'>
-        <div className='flex-1 flex flex-col'>
-          <p className='text-white font-medium text-[16px]'>
-            <span className='blue-text-gradient'>@</span> {name}
-          </p>
-          <p className='mt-1 text-secondary text-[12px]'>
-            {designation} of {company}
-          </p>
-        </div>
-
-        <img
-          src={image}
-          alt={`feedback_by-${name}`}
-          className='w-10 h-10 rounded-full object-cover'
-        />
+    <div className="flex items-center gap-3.5 pt-4 border-t border-slate-800/80">
+      <img
+        src={image}
+        alt={`feedback_by-${name}`}
+        className="w-11 h-11 rounded-full object-cover border-2 border-slate-700"
+      />
+      <div className="flex flex-col">
+        <span className="text-white font-bold text-sm">{name}</span>
+        <span className="text-slate-400 text-xs">
+          {designation} at <span className="text-cyan-400">{company}</span>
+        </span>
       </div>
     </div>
   </motion.div>
@@ -45,16 +43,20 @@ const FeedbackCard = ({
 
 const Feedbacks = () => {
   return (
-    <div className={`mt-12 bg-black-100 rounded-[20px]`}>
-      <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+    <div>
+      <motion.div variants={textVariant()}>
+        <p className={styles.sectionSubText}>Colleague & Client Endorsements</p>
+        <h2 className={styles.sectionHeadText}>Testimonials.</h2>
+      </motion.div>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-3 text-slate-400 text-sm sm:text-base max-w-3xl leading-relaxed mb-10"
       >
-        <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say</p>
-          <h2 className={styles.sectionHeadText}>Testimonials.</h2>
-        </motion.div>
-      </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+        Feedback from team leads, engineering executives, and collaborators who have worked with me.
+      </motion.p>
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}

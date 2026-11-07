@@ -1,69 +1,52 @@
 <div align="center">
-
-  <h3 align="center">A 3D Developer Portfolio</h3>
+  <h1>Zekariyas Tesfaye Desta</h1>
+  <p><strong>Backend Software Engineer & M.Sc. Computer Science Student at the University of Salzburg</strong></p>
+  <p>Salzburg, Austria • <a href="mailto:zekariyastesfayedesta@gmail.com">zekariyastesfayedesta@gmail.com</a> • <a href="https://github.com/ZekariyasT">GitHub</a> • <a href="https://www.linkedin.com/in/zekariyas-tesfaye-53a0791a6/">LinkedIn</a></p>
 </div>
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+---
 
-- React.js
-- Three.js
-- React Three Fiber
-- React Three Drei
-- Email JS
-- Vite
-- Tailwind CSS
+## 🚀 About the Portfolio
 
-## <a name="features">🔋 Features</a>
+A fast, elegant, and professional developer portfolio engineered without heavy 3D WebGL libraries. Designed for speed, responsiveness, and highlighting real-world backend engineering metrics, REST API architectures, and database design.
 
-👉 **Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
+### ⚙️ Tech Stack
+- **Framework**: React 18, Vite
+- **Styling**: Tailwind CSS, PostCSS
+- **Animations**: Framer Motion
+- **Icons**: React Icons (Simple Icons, Tabler Icons, Font Awesome)
+- **Email Service**: EmailJS
+- **Typography**: Inter, JetBrains Mono, Poppins
 
-👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
+---
 
-👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
+## 🌟 Key Features
 
-👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
+- **Interactive REST API Terminal**: A developer console simulator letting visitors test simulated endpoints (`GET /api/v1/engineer/status`, `GET /api/v1/tech-stack/metrics`, `POST /api/v1/dispatch/cooperative`) with real latency metrics, status codes, and JSON responses.
+- **Impact Metrics Bar**: Highlighting 55+ REST endpoints delivered, 20+ database tables/models designed, 30% query optimizations, and 3.86/4.0 CGPA.
+- **Categorized Skills Matrix**: Clean filterable stack covering Languages, Backend & Frameworks (Node.js, Express.js), Databases (PostgreSQL, MySQL, MongoDB), and Testing/Tooling.
+- **Career Timeline**: Detailed professional milestones at IBEX Technologies And Promotion PLC and Dan Energy.
+- **Academic Foundation**: Master of Computer Science at University of Salzburg and B.Sc. in Software Engineering at Arba Minch University.
+- **Key Projects**: STEM Power Ethiopia Backend, Dereja Tura Engineering, Bole Distribution Platform, and ESLTS.
+- **Interactive CV Preview & PDF Print**: Full resume preview modal reflecting the latest credentials with instant print-to-PDF support.
+- **Direct Contact Hub**: Integrated EmailJS contact form, direct email/phone copy-to-clipboard, and social links.
 
-👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
+---
 
-👉 **3D Stars**: Generate stars progressively at random positions using Three.js for background display.
+## 🤸 Getting Started
 
-👉 **Consistent Animations**: Implements cohesive animations throughout the website using framer motion.
+### Prerequisites
+- Node.js (v18+)
+- npm
 
-👉 **Responsive Design**: Ensures optimal display and functionality across all devices.
-
-and many more, including code architecture and reusability
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
+### Installation & Run
 ```bash
-git clone git@github.com:https://github.com/ZekariyasT/My_portfolio.git
-cd My_portfolio
-```
-
-**Installation**
-
-Install the project dependencies using npm:
-
-```bash
+# Install dependencies
 npm install
-```
 
-**Running the Project**
-
-```bash
+# Start local development server
 npm run dev
-```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+# Build production bundle
+npm run build
+```

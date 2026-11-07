@@ -19,7 +19,6 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
 import danEnergy from "./company/danEnergy.png";
 import nexusLabs from "./company/nexusLabs.png";
@@ -32,7 +31,9 @@ import covid from "./covid.png";
 import Nahom from "./Nahom.jpg";
 import tekle from "./tekle.jpg";
 import Ela from "./Ela.jpg";
-import zeki from "./zeki.png";
+import zeki from "./zeki_profile.png";
+import zekiProfile from "./zeki_profile.png";
+import zekiCircle from "./zeki_circle.png";
 
 export {
   logo,
@@ -55,15 +56,16 @@ export {
   redux,
   tailwind,
   typescript,
-  threejs,
   danEnergy,
   nexusLabs,
   jobit,
   task,
   ESLTS,
+  covid,
   Nahom,
   tekle,
   Ela,
-  covid,
   zeki,
+  zekiProfile,
+  zekiCircle,
 };
