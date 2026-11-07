@@ -25,6 +25,7 @@ import nexusLabs from "./company/nexusLabs.png";
 
 import sportings from "./sportings.png";
 import elite from "./elite.png";
+import stempower from "./stempower.png";
 import jobit from "./jobit.jpg";
 import task from "./task.jpg";
 import ESLTS from "./ESLTS.jpg";
@@ -62,6 +63,7 @@ export {
   nexusLabs,
   sportings,
   elite,
+  stempower,
   jobit,
   task,
   ESLTS,
